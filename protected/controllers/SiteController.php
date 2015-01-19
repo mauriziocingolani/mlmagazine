@@ -3,7 +3,7 @@
 class SiteController extends MLController {
 
     public function actionIndex() {
-        CVarDumper::dump('home', 10, true);
+        $this->render('index');
     }
 
     public function actionError() {

@@ -1,0 +1,18 @@
+[submodule "protected/components/framework"]
+	path = protected/components/framework
+	url = https://github.com/mauriziocingolani/yii_fmwk_php
+[submodule "protected/extensions/validators"]
+	path = protected/extensions/validators
+	url = https://github.com/mauriziocingolani/yii_fmwk_validators
+[submodule "protected/extensions/bootstrap"]
+	path = protected/extensions/bootstrap
+	url = https://github.com/mauriziocingolani/yii_fmwk_bootstrap
+[submodule "protected/extensions/mailchimp"]
+	path = protected/extensions/mailchimp
+	url = https://github.com/mauriziocingolani/yii_fmwk_mchimp
+[submodule "js/framework"]
+	path = js/framework
+	url = https://github.com/mauriziocingolani/yii_fmwk_js
+[submodule "assets/scss/framework"]
+	path = assets/scss/framework
+	url = https://github.com/mauriziocingolani/yii_fmwk_css

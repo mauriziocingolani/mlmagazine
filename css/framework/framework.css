@@ -1,5 +1,5 @@
 /* CSS framework
-@version 1.0.6 */
+@version 1.0.7 */
 /* body */
 body {
   overflow: hidden; }
@@ -102,5 +102,24 @@ div.form-message {
 /* Simulazione */
 .navbar-default .navbar-nav > li > a.fakeuser {
   color: red; }
+
+/* twitter */
+.tweet header i, .tweet-reverse header i {
+  color: #55acee; }
+.tweet header span, .tweet-reverse header span {
+  color: #66757f; }
+.tweet p, .tweet-reverse p {
+  color: blask; }
+  .tweet p .hashtag, .tweet-reverse p .hashtag {
+    color: #55acee; }
+  .tweet p a, .tweet-reverse p a {
+    color: #8899a6;
+    transition: color 0.5s; }
+    .tweet p a:hover, .tweet-reverse p a:hover {
+      color: #55acee;
+      text-decoration: none; }
+
+.tweet-reverse p {
+  color: white; }
 
 /*# sourceMappingURL=framework.css.map */
